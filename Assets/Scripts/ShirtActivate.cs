@@ -22,6 +22,7 @@ public class ShirtsHolder : MonoBehaviour
         GO.tag = "Shirt";
         GO.name = "Shirt_1";
 
+        GO.GetComponent<Image>().sprite = imageSprite;
         ShirtsHolder newShirtsHolder = GO.AddComponent<ShirtsHolder>();
         newShirtsHolder.torso = this.torso;
         newShirtsHolder.leftarm = this.leftarm;

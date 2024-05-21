@@ -49,6 +49,16 @@ public class ClothingCollider : MonoBehaviour
             Destroy(other.gameObject);
 
         }
+        if (other.gameObject.tag == "Hat")
+        {
+            DestroyAllChildren(headAtt);
+            SingleObjectActivate objectholder = other.gameObject.GetComponent<SingleObjectActivate>();
+            
+            GameObject newHat = Instantiate(objectholder.piece);
+            newHat.transform.SetParent(headAtt.transform, false);
+
+            Destroy(other.gameObject);
+        }
    }
     void DestroyAllChildren(GameObject obj)
     {

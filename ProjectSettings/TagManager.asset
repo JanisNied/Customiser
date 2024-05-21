@@ -7,6 +7,8 @@ TagManager:
   - Shirt
   - Pants
   - OneObject
+  - NoHide
+  - Hat
   layers:
   - Default
   - TransparentFX

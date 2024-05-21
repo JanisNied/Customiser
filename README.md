@@ -28,7 +28,7 @@ description to be added later
     - [ ] Handling Garment Visibility
     - [ ] Drag and Drop
     - [ ] Viewport (?) images (simplify workflow)
-    - [ ] Clothing Stretching (i despise this one)
+  - [ ] Character Stretching
 - [ ] Backgrounds
   - [ ] decaying winter backgrounds 
 - [ ] Animations (idle)

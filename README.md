@@ -3,16 +3,16 @@ description to be added later
 
 ## Checklist
 - [ ] Modular Avatar
-  - [ ] Make a Rig for the Character Base (3D) (this also sucks)
-  - [ ] Add Default "Underwear" Clothing to make it less awkward (e.g. clothes automatically given by roblox when wearing none)
-  - [ ] Add attachment points for the Character Base within Unity (for garments and accessories)
-    - [ ] Left Arm Attachment
-    - [ ] Right Arm Attachment
-    - [ ] Head Attachment
-    - [ ] Right Leg Attachment
-    - [ ] Left Leg Attachment
-    - [ ] Torso Attachment  
-  - [ ] Turntable for the character model (allow 360 degrees of freedom on the horziontal axis)
+  - [x] Make a Rig for the Character Base (3D) (this also sucks)
+  - [x] Add Default "Underwear" Clothing to make it less awkward (e.g. clothes automatically given by roblox when wearing none)
+  - [x] Add attachment points for the Character Base within Unity (for garments and accessories)
+    - [x] Left Arm Attachment
+    - [x] Right Arm Attachment
+    - [x] Head Attachment
+    - [x] Right Leg Attachment
+    - [x] Left Leg Attachment
+    - [x] Torso Attachment  
+  - [x] Turntable for the character model (allow 360 degrees of freedom on the horziontal axis)
   - [ ] Garments (min. 3)
     - [ ] Shirts
     - [ ] Pants

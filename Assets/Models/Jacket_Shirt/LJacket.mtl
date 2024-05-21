@@ -1,0 +1,56 @@
+newmtl LeftBraclet1Mtl
+Material Color
+Ka 1 1 0
+Kd 1 1 0
+Ks 1 1 0 
+
+d 1
+
+Ns 0
+
+map_Ka LeftBraclet1_diff.png
+map_Kd LeftBraclet1_diff.png
+map_d LeftBraclet1_diff.png
+
+map_Bump LeftBraclet1_nmap.png
+
+map_Ns LeftBraclet1_spec.png
+
+newmtl Leftbracelet1Mtl
+Material Color
+Ka 0.74453 0.74453 0.737205
+Kd 0.74453 0.74453 0.737205
+Ks 0.0291973 0.0291973 0.02891 
+
+d 1
+
+Ns 0
+
+map_Ka Leftbracelet1_diff.png
+map_Kd Leftbracelet1_diff.png
+map_d Leftbracelet1_diff.png
+
+map_Bump Leftbracelet1_nmap.png
+
+map_Ns Leftbracelet1_spec.png
+
+newmtl Leftsleeve1Mtl
+Material Color
+Ka 0.00715504 0.018913 0.0315514
+Kd 0.00715504 0.018913 0.0315514
+Ks 0.000448943 0.0011867 0.0019797 
+
+d 1
+
+Ns 0
+
+newmtl Leftsleevebands1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.0336986 0.0332455 0.034615 
+
+d 1
+
+Ns 0
+

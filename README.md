@@ -27,7 +27,7 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
   - [x] Buttons
     - [x] Handling Garment Visibility
     - [x] Drag and Drop
-  - [ ] Character Stretching
+  - [x] Character Stretching
 - [x] Backgrounds
   - [x] decaying winter backgrounds 
 - [x] Animations (idle)

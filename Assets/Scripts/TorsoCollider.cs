@@ -18,7 +18,7 @@ public class TorsoCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Shirt")
+        if (other.gameObject.CompareTag("Shirt"))
         {
             DestroyAllChildren(torsoAtt);
             DestroyAllChildren(leftarmAtt);

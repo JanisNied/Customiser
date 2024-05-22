@@ -1,5 +1,5 @@
 # Decaying Winter Customisation
-description to be added later
+A Character Customiser based on a Roblox Experience called Decaying Winter!
 
 ## Checklist
 - [ ] Modular Avatar
@@ -13,24 +13,22 @@ description to be added later
     - [x] Left Leg Attachment
     - [x] Torso Attachment  
   - [x] Turntable for the character model (allow 360 degrees of freedom on the horziontal axis)
-  - [ ] Garments (min. 3)
-    - [ ] Shirts
-    - [ ] Pants
-    - [ ] Hats
-    - [ ] Hair
-    - [ ] Face Accessories
-    - [ ] Perks (?)
+  - [x] Garments (min. 3)
+    - [x] Shirts - 1
+    - [x] Pants - 1
+    - [x] Hats - 1
+    - [x] Hair - 1
+    - [ ] Face Accessories - 0
+    - [ ] Perks (?) - 0
 - [ ] Customisation
-  - [ ] UI Setup
-  - [ ] UI Design
-    - [ ] Spend 5 hours contemplating your UI/UX choices 
-  - [ ] Buttons
-    - [ ] Handling Garment Visibility
-    - [ ] Drag and Drop
-    - [ ] Viewport (?) images (simplify workflow)
+  - [x] UI Setup
+  - [x] UI Design
+    - [x] Spend 5 hours contemplating your UI/UX choices 
+  - [x] Buttons
+    - [x] Handling Garment Visibility
+    - [x] Drag and Drop
   - [ ] Character Stretching
-- [ ] Backgrounds
-  - [ ] decaying winter backgrounds 
-- [ ] Animations (idle)
-  - [ ] Test my Unity Animation skills and benchmark my work on my modular avatar system 
-- [ ] Cutscene (out of boredom, will only do if i have extra time)
+- [x] Backgrounds
+  - [x] decaying winter backgrounds 
+- [x] Animations (idle)
+  - [x] Test my Unity Animation skills and benchmark my work on my modular avatar system 

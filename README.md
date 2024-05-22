@@ -21,6 +21,8 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
     - [ ] Face Accessories - 0
     - [ ] Perks (?) - 0
 - [ ] Customisation
+  - [ ] Add "Lore" scrollview
+  - [ ] Add Reikgon  
   - [x] UI Setup
   - [x] UI Design
     - [x] Spend 5 hours contemplating your UI/UX choices 

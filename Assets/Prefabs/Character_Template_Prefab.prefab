@@ -19,7 +19,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4771236837396890081
 RectTransform:
   m_ObjectHideFlags: 0
@@ -144,9 +144,9 @@ MonoBehaviour:
   leftlegAtt: {fileID: 3973493633508371468}
   skinmat: {fileID: 2100000, guid: 0e56c4d0d43d66143b8abecce5c9396c, type: 2}
   underwearmat: {fileID: 2100000, guid: 38e10f3e6b8fedd4989edacdad93417e, type: 2}
-  torso: {fileID: 517823924712308686}
-  leftleg: {fileID: 0}
-  rightleg: {fileID: 0}
+  torsoBody: {fileID: 517823924712308686}
+  leftlegBody: {fileID: 404406865909240735}
+  rightlegBody: {fileID: 8603781100268649097}
 --- !u!1 &408995205798839339
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1650,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4002087586755041271}
   m_SourcePrefab: {fileID: 100100000, guid: d86ede4b05e49984bbefa842f676e211, type: 3}
+--- !u!1 &404406865909240735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -646433284062861403, guid: d86ede4b05e49984bbefa842f676e211,
+    type: 3}
+  m_PrefabInstance: {fileID: 8258429347414570042}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &517823924712308686 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -741832106251744268, guid: d86ede4b05e49984bbefa842f676e211,
@@ -1695,6 +1701,12 @@ Transform:
 --- !u!4 &8435643157419594705 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d86ede4b05e49984bbefa842f676e211,
+    type: 3}
+  m_PrefabInstance: {fileID: 8258429347414570042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8603781100268649097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8791852274948960589, guid: d86ede4b05e49984bbefa842f676e211,
     type: 3}
   m_PrefabInstance: {fileID: 8258429347414570042}
   m_PrefabAsset: {fileID: 0}

@@ -11,10 +11,21 @@ public class Scaling : MonoBehaviour
 
     public void ChangeHeight(float val)
     {
-        scalingTarget.transform.localScale = new Vector3(scalingTarget.transform.localScale.x, initialScale * val, scalingTarget.transform.localScale.z);
+        float x = scalingTarget.transform.localScale.x;
+        float y = initialScale * val;
+        float z = CalculateGeometricMeanScale(x, y);
+        scalingTarget.transform.localScale = new Vector3(x, y, z);
     }
     public void ChangeWidth(float val)
     {
-        scalingTarget.transform.localScale = new Vector3(initialScale * val, scalingTarget.transform.localScale.y, scalingTarget.transform.localScale.z);
+        float x = initialScale * val;
+        float y = scalingTarget.transform.localScale.y;
+        float z = CalculateGeometricMeanScale(x, y);
+        scalingTarget.transform.localScale = new Vector3(x, y, z);
+    }
+
+    float CalculateGeometricMeanScale(float scaleX, float scaleY)
+    {
+        return Mathf.Sqrt(scaleX * scaleY);
     }
 }

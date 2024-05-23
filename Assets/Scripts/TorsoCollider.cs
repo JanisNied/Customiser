@@ -5,19 +5,19 @@ using UnityEngine;
 public class TorsoCollider : MonoBehaviour
 {
     [Header("Attachments")]
+    [SerializeField] private GameObject head;
     [SerializeField] private GameObject torsoAtt;
     [SerializeField] private GameObject leftarmAtt;
     [SerializeField] private GameObject rightarmAtt;
 
-    [Header("Materials")]
-    [SerializeField] private Material skinmat;
-    [SerializeField] private Material underwearmat;
+    private Material skinmat;
 
     [Header("Body Parts with Underwear")]
     [SerializeField] private GameObject torsoBody;
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        skinmat = head.GetComponent<SkinnedMeshRenderer>().material;
         if (other.gameObject.CompareTag("Shirt"))
         {
             DestroyAllChildren(torsoAtt);

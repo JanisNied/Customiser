@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PantsHitbox : MonoBehaviour
 {
+    [SerializeField] private Toggle tgl;
     [Header("Attachments")]
     [SerializeField] private GameObject head;
     [SerializeField] private GameObject rightlegAtt;
@@ -16,16 +18,18 @@ public class PantsHitbox : MonoBehaviour
     [SerializeField] private GameObject rightlegBody;
 
     void OnTriggerEnter2D(Collider2D other)
-    {
+    {    
         skinmat = head.GetComponent<SkinnedMeshRenderer>().material;
         if (other.gameObject.tag == "Pants")
         {
             DestroyAllChildren(leftlegAtt);
             DestroyAllChildren(rightlegAtt);
             PantsHolder pantsHolder = other.gameObject.GetComponent<PantsHolder>();
-
-            leftlegBody.GetComponent<Renderer>().material = skinmat;
-            rightlegBody.GetComponent<Renderer>().material = skinmat;
+            if (tgl.isOn)
+            {
+                leftlegBody.GetComponent<Renderer>().material = skinmat;
+                rightlegBody.GetComponent<Renderer>().material = skinmat;
+            }
 
             GameObject leftleg = Instantiate(pantsHolder.leftleg);
             leftleg.transform.SetParent(leftlegAtt.transform, false);

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TorsoCollider : MonoBehaviour
 {
+    [SerializeField] private AudioSource asrc;
     [Header("Attachments")]
     [SerializeField] private GameObject head;
     [SerializeField] private GameObject torsoAtt;
@@ -39,6 +40,7 @@ public class TorsoCollider : MonoBehaviour
             GameObject rightArm = Instantiate(shirtsHolder.rightarm);
             rightArm.transform.SetParent(rightarmAtt.transform, false);
             Destroy(other.gameObject);
+            asrc.Play();
         }
     }
     void DestroyAllChildren(GameObject obj)

@@ -6,6 +6,7 @@ public class HeadCollider : MonoBehaviour
 {
     [Header("Attachments")]
     [SerializeField] private GameObject headAtt;
+    [SerializeField] private AudioSource asrc;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -18,6 +19,7 @@ public class HeadCollider : MonoBehaviour
             newHat.tag = other.gameObject.tag;
             newHat.transform.SetParent(headAtt.transform, false);
             Destroy(other.gameObject);
+            asrc.Play();
         }
     }
     void DestroyAllChildrenTagged(GameObject obj, string tag)

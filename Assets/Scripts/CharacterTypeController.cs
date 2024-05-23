@@ -3,12 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CharacterTypeController : MonoBehaviour
 {
     [SerializeField] private RectTransform textobj;
     [SerializeField] private TMP_Text textResult;
     [SerializeField] private GameObject undHolder;
+    [SerializeField] private Toggle shirtsToggle;
+    [SerializeField] private Toggle pantsToggle;
+
     [Header("Character Parts")]
     [SerializeField] private GameObject head;
     [SerializeField] private GameObject torso;
@@ -44,11 +48,11 @@ public class CharacterTypeController : MonoBehaviour
         head.GetComponent<SkinnedMeshRenderer>().material = normal;
         leftarm.GetComponent<SkinnedMeshRenderer>().material = normal;
         rightarm.GetComponent<SkinnedMeshRenderer>().material = normal;
-        if (torso.transform.childCount > 0)
+        if (torso.transform.childCount > 0 && shirtsToggle.isOn)
             torso.GetComponent<SkinnedMeshRenderer>().material = normal;
         else
             torso.GetComponent<SkinnedMeshRenderer>().material = normalclothed;
-        if (leftleg.transform.childCount > 0 && rightleg.transform.childCount > 0)
+        if (leftleg.transform.childCount > 0 && rightleg.transform.childCount > 0 && pantsToggle.isOn)
         {
             leftleg.GetComponent<SkinnedMeshRenderer>().material = normal;
             rightleg.GetComponent<SkinnedMeshRenderer>().material = normal;
@@ -67,11 +71,11 @@ public class CharacterTypeController : MonoBehaviour
         head.GetComponent<SkinnedMeshRenderer>().material = black;
         leftarm.GetComponent<SkinnedMeshRenderer>().material = black;
         rightarm.GetComponent<SkinnedMeshRenderer>().material = black;
-        if (torso.transform.childCount > 0)
+        if (torso.transform.childCount > 0 && shirtsToggle.isOn)
             torso.GetComponent<SkinnedMeshRenderer>().material = black;
         else
             torso.GetComponent<SkinnedMeshRenderer>().material = blackclothed;
-        if (leftleg.transform.childCount > 0 && rightleg.transform.childCount > 0)
+        if (leftleg.transform.childCount > 0 && rightleg.transform.childCount > 0 && pantsToggle.isOn)
         {
             leftleg.GetComponent<SkinnedMeshRenderer>().material = black;
             rightleg.GetComponent<SkinnedMeshRenderer>().material = black;

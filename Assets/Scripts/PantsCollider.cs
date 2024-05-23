@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class PantsHitbox : MonoBehaviour
 {
     [SerializeField] private Toggle tgl;
+    [SerializeField] private AudioSource asrc;
     [Header("Attachments")]
     [SerializeField] private GameObject head;
     [SerializeField] private GameObject rightlegAtt;
@@ -37,6 +38,7 @@ public class PantsHitbox : MonoBehaviour
             GameObject rightleg = Instantiate(pantsHolder.rightleg);
             rightleg.transform.SetParent(rightlegAtt.transform, false);
             Destroy(other.gameObject);
+            asrc.Play();
         }
     }
     void DestroyAllChildren(GameObject obj)

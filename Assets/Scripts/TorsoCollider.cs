@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TorsoCollider : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class TorsoCollider : MonoBehaviour
     [SerializeField] private GameObject torsoAtt;
     [SerializeField] private GameObject leftarmAtt;
     [SerializeField] private GameObject rightarmAtt;
+    [SerializeField] private Toggle tgl;
 
     private Material skinmat;
 
@@ -25,7 +27,8 @@ public class TorsoCollider : MonoBehaviour
             DestroyAllChildren(rightarmAtt);
             ShirtsHolder shirtsHolder = other.gameObject.GetComponent<ShirtsHolder>();
 
-            torsoBody.GetComponent<Renderer>().material = skinmat;
+            if (tgl.isOn)
+                torsoBody.GetComponent<Renderer>().material = skinmat;
 
             GameObject newTorso = Instantiate(shirtsHolder.torso);
             newTorso.transform.SetParent(torsoAtt.transform, false);

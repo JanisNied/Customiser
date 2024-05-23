@@ -19,10 +19,10 @@ public class MultipleObjectLayerToggle : MonoBehaviour
         {
             if (matParts.Contains(go.name))
             {
-                if (!toggle && go.transform.childCount < 0)
-                    go.GetComponent<SkinnedMeshRenderer>().material = undMat;
-                else
+                if (toggle && go.transform.childCount > 0)
                     go.GetComponent<SkinnedMeshRenderer>().material = normal;
+                else
+                    go.GetComponent<SkinnedMeshRenderer>().material = undMat;
             }
             foreach (Transform child in go.transform)
             {

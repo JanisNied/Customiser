@@ -5,12 +5,11 @@ using UnityEngine;
 public class PantsHitbox : MonoBehaviour
 {
     [Header("Attachments")]
+    [SerializeField] private GameObject head;
     [SerializeField] private GameObject rightlegAtt;
     [SerializeField] private GameObject leftlegAtt;
 
-    [Header("Materials")]
-    [SerializeField] private Material skinmat;
-    [SerializeField] private Material underwearmat;
+    private Material skinmat;
 
     [Header("Body Parts with Underwear")]
     [SerializeField] private GameObject leftlegBody;
@@ -18,6 +17,7 @@ public class PantsHitbox : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        skinmat = head.GetComponent<SkinnedMeshRenderer>().material;
         if (other.gameObject.tag == "Pants")
         {
             DestroyAllChildren(leftlegAtt);

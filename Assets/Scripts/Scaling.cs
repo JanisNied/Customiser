@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Scaling : MonoBehaviour
 {
     [SerializeField] private GameObject scalingTarget;
-    [SerializeField] private Slider slider;
     private float initialScale = 1f;
 
     public void ChangeHeight(float val)
@@ -27,5 +26,10 @@ public class Scaling : MonoBehaviour
     float CalculateGeometricMeanScale(float scaleX, float scaleY)
     {
         return Mathf.Sqrt(scaleX * scaleY);
+    }
+
+    public void ResetScale()
+    {
+        scalingTarget.transform.localScale = new Vector3(initialScale, initialScale, initialScale);
     }
 }

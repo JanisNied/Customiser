@@ -1,7 +1,8 @@
-# Decaying Winter Customisation
+# Decaying Winter Customisation🎩👕👖
 A Character Customiser based on a Roblox Experience called Decaying Winter!
 
-## Checklist
+## Checklist🎯
+- [x] Main Menu
 - [x] Modular Avatar
   - [x] Make a Rig for the Character Base (3D) (this also sucks)
   - [x] Add Default "Underwear" Clothing to make it less awkward (e.g. clothes automatically given by roblox when wearing none)
@@ -14,11 +15,11 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
     - [x] Torso Attachment  
   - [x] Turntable for the character model (allow 360 degrees of freedom on the horziontal axis)
   - [x] Garments (min. 3)
-    - [x] Shirts - 3
-    - [x] Pants - 3
-    - [x] Hats - 3
-    - [x] Hair - 3
-    - [x] Face Accessories - 3
+    - [x] Shirts - 6
+    - [x] Pants - 6
+    - [x] Hats - 7
+    - [x] Hair - 6
+    - [x] Face Accessories - 6
     - [ ] Perks (?) - 0
 - [x] Customisation
   - [x] Add "Lore" scrollview
@@ -31,4 +32,7 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
     - [x] Drag and Drop
   - [x] Character Stretching
 - [x] Backgrounds
-  - [x] decaying winter backgrounds 
+  - [x] decaying winter backgrounds
+
+## Screenshots
+(to be attached later)

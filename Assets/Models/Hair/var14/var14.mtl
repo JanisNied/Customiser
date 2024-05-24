@@ -1,0 +1,28 @@
+newmtl Dragonband1Mtl
+Material Color
+Ka 0.804559 0.541798 0.0619075
+Kd 0.804559 0.541798 0.0619075
+Ks 0.0504821 0.0339952 0.00388439 
+
+d 1
+
+Ns 0
+
+newmtl Dragonhair21Mtl
+Material Color
+Ka 0.0265487 0.0265487 0.0265487
+Kd 0.0265487 0.0265487 0.0265487
+Ks 0.00104112 0.00104112 0.00104112 
+
+d 1
+
+Ns 0
+
+map_Ka Dragonhair21_diff.png
+map_Kd Dragonhair21_diff.png
+map_d Dragonhair21_diff.png
+
+map_Bump Dragonhair21_nmap.png
+
+map_Ns Dragonhair21_spec.png
+

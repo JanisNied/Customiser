@@ -1,0 +1,46 @@
+newmtl Sujibachishikoro1Mtl
+Material Color
+Ka 0.180144 0 0
+Kd 0.180144 0 0
+Ks 0.0713513 0 0 
+
+d 1
+
+Ns 0
+
+newmtl Sujibachistraps1Mtl
+Material Color
+Ka 0.0915184 0.0511221 0.0328759
+Kd 0.0915184 0.0511221 0.0328759
+Ks 0.00358896 0.00200479 0.00128925 
+
+d 1
+
+Ns 0
+
+map_Ka Sujibachistraps1_diff.png
+map_Kd Sujibachistraps1_diff.png
+map_d Sujibachistraps1_diff.png
+
+map_Bump Sujibachistraps1_nmap.png
+
+map_Ns Sujibachistraps1_spec.png
+
+newmtl Sujibachitehen1Mtl
+Material Color
+Ka 1 0.442323 0
+Kd 1 0.442323 0
+Ks 0.666667 0.294882 0 
+
+d 1
+
+Ns 255
+
+map_Ka Sujibachitehen1_diff.png
+map_Kd Sujibachitehen1_diff.png
+map_d Sujibachitehen1_diff.png
+
+map_Bump Sujibachitehen1_nmap.png
+
+map_Ns Sujibachitehen1_spec.png
+

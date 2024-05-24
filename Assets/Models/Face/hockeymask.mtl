@@ -1,0 +1,38 @@
+newmtl Clamps1Mtl
+Material Color
+Ka 0.373615 0.368591 0.383775
+Kd 0.373615 0.368591 0.383775
+Ks 0.249077 0.245727 0.25585 
+
+d 1
+
+Ns 255
+
+map_Ka Clamps1_diff.png
+map_Kd Clamps1_diff.png
+map_d Clamps1_diff.png
+
+map_Bump Clamps1_nmap.png
+
+map_Ns Clamps1_spec.png
+
+newmtl Maskleft1Mtl
+Material Color
+Ka 0.124741 0.113921 0.121986
+Kd 0.124741 0.113921 0.121986
+Ks 0.00782688 0.00714798 0.00765401 
+
+d 1
+
+Ns 0
+
+newmtl Maskright1Mtl
+Material Color
+Ka 0.511398 0.334458 0.108711
+Kd 0.511398 0.334458 0.108711
+Ks 0.0320877 0.0209856 0.00682109 
+
+d 1
+
+Ns 0
+

@@ -10,7 +10,7 @@ public class HeadCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Hat" || other.gameObject.tag == "Hair")
+        if (other.gameObject.tag == "Hat" || other.gameObject.tag == "Hair" || other.gameObject.tag == "Face")
         {
             DestroyAllChildrenTagged(headAtt, other.gameObject.tag);
             SingleObjectActivate objectholder = other.gameObject.GetComponent<SingleObjectActivate>();

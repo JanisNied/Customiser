@@ -10,7 +10,7 @@ public class SingleObjectActivate : MonoBehaviour
     [SerializeField] private GameObject dragAndDropPrefab;
     [SerializeField] private string layer;
     [SerializeField] private Sprite imageSprite;
-    [SerializeField] private Canvas canvas;
+    [SerializeField] private GameObject canvas;
     [SerializeField] private Toggle toggle;
 
     Vector2 objectPos = new Vector2(115.75f, 331.75f);

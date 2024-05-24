@@ -10,7 +10,7 @@ public class ShirtsHolder : MonoBehaviour
     [SerializeField] public GameObject rightarm;
     [SerializeField] private GameObject dragAndDropPrefab;
     [SerializeField] private Sprite imageSprite;
-    [SerializeField] private Canvas canvas;
+    [SerializeField] private GameObject canvas;
     [SerializeField] private Toggle toggle;
 
     Vector2 objectPos = new Vector2(115.75f, 2.02f);

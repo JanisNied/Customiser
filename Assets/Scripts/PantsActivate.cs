@@ -9,7 +9,7 @@ public class PantsHolder : MonoBehaviour
     [SerializeField] public GameObject rightleg;
     [SerializeField] private GameObject dragAndDropPrefab;
     [SerializeField] private Sprite imageSprite;
-    [SerializeField] private Canvas canvas;
+    [SerializeField] private GameObject canvas;
     [SerializeField] private Toggle toggle;
 
     Vector2 objectPos = new Vector2(115.75f, 2.02f);

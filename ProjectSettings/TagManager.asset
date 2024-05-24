@@ -10,6 +10,7 @@ TagManager:
   - NoHide
   - Hat
   - Hair
+  - Face
   layers:
   - Default
   - TransparentFX

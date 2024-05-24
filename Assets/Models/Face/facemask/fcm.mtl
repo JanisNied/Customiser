@@ -1,0 +1,20 @@
+newmtl Meshpart1Mtl
+Material Color
+Ka 0.598942 0.605484 0.645555
+Kd 0.598942 0.605484 0.645555
+Ks 0.237228 0.239819 0.255691 
+
+d 1
+
+Ns 0
+
+newmtl Meshpart2Mtl
+Material Color
+Ka 0.436813 0.729919 1
+Kd 0.436813 0.729919 1
+Ks 0.173012 0.289105 0.396078 
+
+d 1
+
+Ns 0
+

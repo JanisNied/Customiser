@@ -1,0 +1,18 @@
+newmtl Writer21Mtl
+Material Color
+Ka 0.0399472 0.00552174 0.00552174
+Kd 0.0399472 0.00552174 0.00552174
+Ks 0.00156656 0.000216539 0.000216539 
+
+d 1
+
+Ns 0
+
+map_Ka Writer21_diff.png
+map_Kd Writer21_diff.png
+map_d Writer21_diff.png
+
+map_Bump Writer21_nmap.png
+
+map_Ns Writer21_spec.png
+

@@ -1,12 +1,14 @@
 # Decaying Winter Customisation🎩👕👖
-A Character Customiser based on a Roblox Experience called Decaying Winter!
+A Character Customiser based on a Roblox Experience called Decaying Winter! This customiser has you going through many options that range from Head to Toe. You may even change your character, their scale, name and age!
+
+*god this description is awful*
 
 ## Checklist🎯
 - [x] Main Menu
 - [x] Modular Avatar
   - [x] Make a Rig for the Character Base (3D) (this also sucks)
   - [x] Add Default "Underwear" Clothing to make it less awkward (e.g. clothes automatically given by roblox when wearing none)
-  - [x] Add attachment points for the Character Base within Unity (for garments and accessories)
+  - [x] Add attachment points for the Character Base within Unity (for equipables and accessories)
     - [x] Left Arm Attachment
     - [x] Right Arm Attachment
     - [x] Head Attachment
@@ -14,7 +16,7 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
     - [x] Left Leg Attachment
     - [x] Torso Attachment  
   - [x] Turntable for the character model (allow 360 degrees of freedom on the horziontal axis)
-  - [x] Garments (min. 3)
+  - [x] Equipables (min. 3)
     - [x] Shirts - 6
     - [x] Pants - 6
     - [x] Hats - 7
@@ -26,13 +28,18 @@ A Character Customiser based on a Roblox Experience called Decaying Winter!
   - [x] Add Reikgon  
   - [x] UI Setup
   - [x] UI Design
-    - [x] Spend 5 hours contemplating your UI/UX choices 
   - [x] Buttons
     - [x] Handling Garment Visibility
     - [x] Drag and Drop
   - [x] Character Stretching
 - [x] Backgrounds
-  - [x] decaying winter backgrounds
 
 ## Screenshots
-(to be attached later)
+![Screenshot_1](https://github.com/JanisNied/Niedols_UnityUI/assets/122255186/4cc33482-e6a9-45d4-90c8-08aeab29b86b)
+![Screenshot_2](https://github.com/JanisNied/Niedols_UnityUI/assets/122255186/4b35e675-9d7c-42b4-b464-da301da051b1)
+
+## Credits
+- DW by Archeximus
+- Assets by Archeximus and/or DW Team
+- Music from The Upturned and The Division Survival
+

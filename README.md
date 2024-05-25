@@ -43,3 +43,4 @@ A Character Customiser based on a Roblox Experience called Decaying Winter! This
 - Assets by Archeximus and/or DW Team
 - Music from The Upturned and The Division Survival
 
+*I had to make this for a school assignment please don't sue me*
